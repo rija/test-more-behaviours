@@ -2,10 +2,10 @@ Test-More-Behaviours version 0.0.2
 
 This module was initially written by Antony Marcano when he was working with my team to help us practicing Test Driven Development.
 
-It doesn't do much but it helps keeping Test::More based tests organised and documented in a way that make sense.
-In addition, the set_up() and tear_down() mecanisms provided by JUnit was missed by Antony (who has a background in Java Devlopment), so this feature has been added.
+It doesn't do much but it helps keeping Test::More based tests organized and documented in a way that make sense.
+In addition, the set_up() and tear_down() mechanisms provided by JUnit was missed by Antony (who has a background in Java Development), so this feature has been added.
 
-This module has also been used and exerciced during several Coding Dojos.
+This module has also been used and exercised during several Coding Dojos.
  
 More background information can be found on Antony Marcano's blog:
  * http://www.testingreflections.com/node/view/5333
