@@ -25,7 +25,7 @@ BUGS
 none so far, but the module is at an early stage and not widely used.
 Please, feel free to report any bug to the maintainer:
 
-Rija Menage (cpan@rijam.sent.as)
+Rija Ménagé (rija.menage AT bbc.co.uk)
 
 
 INSTALLATION
@@ -54,7 +54,7 @@ None.
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2007, BBC
+Copyright (C) 2007, British Broadcasting Corporation
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
