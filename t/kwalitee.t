@@ -1,7 +1,9 @@
-# in a separate test file
+#!perl -w
+
+use strict;
 use Test::More;
 
-eval { require Test::Kwalitee; Test::Kwalitee->import() };
+eval { require Test::Kwalitee; };
 
-warn $@ if $@ ;
 plan( skip_all => 'Test::Kwalitee not installed; skipping' ) if $@;
+Test::Kwalitee->import()  ;

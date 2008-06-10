@@ -1,8 +1,8 @@
+#!perl -w
+
 use strict;
 use lib '..';
 use Test::More::Behaviours 'no_plan';
-use Test::Exception;
-use Sub::Install;
 
 use constant TRUE 	=> 1;
 use constant FALSE 	=> 0;
@@ -15,17 +15,8 @@ BEGIN {
 	} ;
 }
 
-Sub::Install::install_sub {
-	code => sub { $is_setup = TRUE;},
-	into => 'main',
-	as   => 'set_up'
-};
-
-Sub::Install::install_sub {
-	code => sub { $is_setup = FALSE;},
-	into => 'main',
-	as   => 'tear_down'
-};
+*main::set_up = sub { $is_setup = TRUE } ;
+*main::tear_down = sub { $is_setup = FALSE } ;
 
 test 'setup test' => sub {
 		ok( $is_setup, 'should have been setup' );
