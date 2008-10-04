@@ -21,6 +21,10 @@ HISTORY
 					- Added a login_recipe.t test  as an example test
 					- Documented the API (first version, likely to be incomplete, may contains typo)
 
+SEE ALSO
+
+	Project home on github: http://github.com/rija/test-more-behaviours/tree/master
+
 BUGS
 
 none so far, but the module is at an early stage and not widely used.
