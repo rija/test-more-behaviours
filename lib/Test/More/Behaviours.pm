@@ -5,7 +5,7 @@ use strict;
 use Carp;
 use Sub::Uplevel;
 
-use version; our $VERSION = qv('0.0.3');
+use version; our $VERSION = qv('0.0.4');
 
 # Other recommended modules (uncomment to use):
 #  use IO::Prompt;
@@ -108,41 +108,18 @@ is expected to verify. It is recommended that it always start with "should ..."
 
 =head1 DIAGNOSTICS
 
-=for author to fill in:
-    List every single error and warning message that the module can
-    generate (even the ones that will "never happen"), with a full
-    explanation of each problem, one or more likely causes, and any
-    suggested remedies.
-
 =over
-
-=item C<< Error message here, perhaps with %s placeholders >>
-
-[Description of error here]
-
-=item C<< Another error message here >>
-
-[Description of error here]
-
-[Et cetera, et cetera]
-
-=back
 
 
 =head1 CONFIGURATION AND ENVIRONMENT
 
-=for author to fill in:
-    A full explanation of any configuration system(s) used by the
-    module, including the names and locations of any configuration
-    files, and the meaning of any environment variables or properties
-    that can be set. These descriptions must also include details of any
-    configuration language used.
   
 Test::More::Behaviours requires no configuration files or environment variables.
 
 =head1 DEPENDENCIES
 
 L<<Test::More>>
+L<<Sub::Uplevel>>
 
 
 =head1 INCOMPATIBILITIES
