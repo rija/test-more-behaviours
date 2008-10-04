@@ -43,8 +43,7 @@ Test::More::Behaviours - Group Test::More assertions into behaviours
 
 =head1 VERSION
 
-This document describes Test::More::Behaviours version 0.0.1
-
+This document describes Test::More::Behaviours
 
 =head1 SYNOPSIS
 
@@ -76,10 +75,6 @@ This document describes Test::More::Behaviours version 0.0.1
 
  It is also possible to define a set_up and tear_down subroutine that will be called respectively before and after each behaviour test.
 
-=for author to fill in:
-    Write a full description of the module and its features here.
-    Use subsections (=head2, =head3) as appropriate.
-
 
 =head1 INTERFACE 
 
@@ -108,12 +103,6 @@ is expected to verify. It is recommended that it always start with "should ..."
 		ok validate("dfd@dfdf.com"), "should return 1 for valid email dfd@dfdf.com" ;
 
 	};
-
-=for author to fill in:
-    Write a separate section listing the public components of the modules
-    interface. These normally consist of either subroutines that may be
-    exported, or methods that may be called on objects belonging to the
-    classes provided by the module.
 
 =back
 
@@ -158,26 +147,11 @@ L<<Test::More>>
 
 =head1 INCOMPATIBILITIES
 
-=for author to fill in:
-    A list of any modules that this module cannot be used in conjunction
-    with. This may be due to name conflicts in the interface, or
-    competition for system or program resources, or due to internal
-    limitations of Perl (for example, many modules that use source code
-    filters are mutually incompatible).
-
 None reported.
 
 
 =head1 BUGS AND LIMITATIONS
 
-=for author to fill in:
-    A list of known problems with the module, together with some
-    indication Whether they are likely to be fixed in an upcoming
-    release. Also a list of restrictions on the features the module
-    does provide: data types that cannot be handled, performance issues
-    and the circumstances in which they may arise, practical
-    limitations on the size of data sets, special cases that are not
-    (yet) handled, etc.
 
 No bugs have been reported.
 
@@ -188,13 +162,13 @@ L<http://rt.cpan.org>.
 
 =head1 AUTHOR
 
-Antony Marcano, with contributions from Rija Menage  C<< <cpan@rijam.sent.as> >>
+Antony Marcano, with contributions from Rija Menage  C<< <cpan AT rijam.sent.as> >>
 The name was found by Tim Brown
 
 
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2007, BBC << <cpan@rijam.sent.as> >>. All rights reserved.
+Copyright (c) 2007, The British Broadcasting Corporation. All rights reserved.
 
 This module is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself. See L<perlartistic>.
