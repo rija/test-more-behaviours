@@ -3,6 +3,7 @@ package Test::More::Behaviours;
 use warnings;
 use strict;
 use Carp;
+use Sub::Uplevel;
 
 use version; our $VERSION = qv('0.0.2');
 
@@ -27,7 +28,7 @@ sub test {
 	my $block = shift;
 	print "\n" . LOG_COMMENT_CHARACTER ." " . $description . "\n";
 	&main::set_up if main->can('set_up');
-	&$block;
+	uplevel 2, $block;
 	&main::tear_down if main->can('tear_down');
 }
 
